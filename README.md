@@ -19,3 +19,7 @@ Builds a simple but real Retrieval-Augmented Generation tool, which retrieves an
 ### 5_chromadb.ipynb
 
 A ChromaDB quickstart, showing the creation of a collection and retrieval of documents.
+
+### 6_llamaindex_PDF_RAG.ipynb
+
+Uses LlamaIndex to embed PDF documents into ChromaDB and FAISS vectore stores. Runs RAG on them to answer user questions.
