@@ -15,3 +15,7 @@ Sentences and paragraphs can be represented as vectors in a high-dimensional spa
 ### 4_simple_RAG_ollama.ipynb
 
 Builds a simple but real Retrieval-Augmented Generation tool, which retrieves and includes relevant pieces of information to enhance the question asked by the user, and limits hallucinations by asking the model to stick to the provided documentation.
+
+### 5_chromadb.ipynb
+
+A ChromaDB quickstart, showing the creation of a collection and retrieval of documents.
