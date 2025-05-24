@@ -23,3 +23,7 @@ A ChromaDB quickstart, showing the creation of a collection and retrieval of doc
 ### 6_llamaindex_PDF_RAG.ipynb
 
 Uses LlamaIndex to embed PDF documents into ChromaDB and FAISS vectore stores. Runs RAG on them to answer user questions.
+
+### 7_agent_query_dataframes.ipynb
+
+Asks the LLM to generate Python code that answers a user question about a Pandas dataframe, executes this code, and returns the answer. The LlamaIndex version doesn't natively work with `deepseek-1:7b`, but our hand-made agent does!
