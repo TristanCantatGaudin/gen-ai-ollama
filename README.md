@@ -30,7 +30,7 @@ Asks the LLM to generate Python code that answers a user question about a Pandas
 
 ------
 
-Ollama is a wrapper around Llama.cpp (https://github.com/ggml-org/llama.cpp), which reads models stored in the [GGUF format](https://huggingface.co/docs/hub/en/gguf), including anything (LLM or embedding models) stored at HuggingFace. The examples in this repository use the LLM `deepseek-r1:7b`:
+Ollama is a wrapper around [Llama.cpp](https://github.com/ggml-org/llama.cpp), which reads models stored in the [GGUF format](https://huggingface.co/docs/hub/en/gguf), including anything (LLM or embedding models) stored at HuggingFace. The examples in this repository use the LLM `deepseek-r1:7b`:
 
        ~ $ ollama show deepseek-r1:7b
         Model
@@ -39,18 +39,18 @@ Ollama is a wrapper around Llama.cpp (https://github.com/ggml-org/llama.cpp), wh
           context length      131072    
           embedding length    3584      
           quantization        Q4_K_M    
-      
+       
         Capabilities
           completion    
-      
+       
         Parameters
           stop    "<｜begin▁of▁sentence｜>"    
           stop    "<｜end▁of▁sentence｜>"      
           stop    "<｜User｜>"                 
           stop    "<｜Assistant｜>"            
-      
+       
         License
           MIT License                    
           Copyright (c) 2023 DeepSeek  
 
-On HuggingFace this model is available under `DeepSeek-R1-Distill-Qwen-7B`, which makes it more obvious that it is a distillated version of the open-source model Qwen (specifically, Qwen2.5-Math-7B), fine-tuned using DeepSeek-R1 data.
+On HuggingFace this model is available under `DeepSeek-R1-Distill-Qwen-7B`, which makes it more obvious that it is a distillated version of the open-source model Qwen (specifically, Qwen2.5-Math-7B), fine-tuned using DeepSeek-R1 data. It is a reasoning model, which means it provides its full chain of thoughts. 
